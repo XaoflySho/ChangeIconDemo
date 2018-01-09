@@ -38,6 +38,8 @@
 		1769721620045AD500FF5F6D /* exampleIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "exampleIcon@3x.png"; sourceTree = "<group>"; };
 		1769721920045B1000FF5F6D /* podsIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "podsIcon@3x.png"; sourceTree = "<group>"; };
 		1769721A20045B1000FF5F6D /* podsIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "podsIcon@2x.png"; sourceTree = "<group>"; };
+		17B6E7452004619200CB9697 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		17B6E7462004619200CB9697 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				176972002004559200FF5F6D /* Base */,
+				17B6E7452004619200CB9697 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				176972052004559200FF5F6D /* Base */,
+				17B6E7462004619200CB9697 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -214,6 +218,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -269,6 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
